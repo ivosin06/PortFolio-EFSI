@@ -8,6 +8,7 @@ import { ProyectProvider } from './context/ProyectContext';
 import Footer from './components/Footer';
 import Contact from './pages/Contact';
 import Favs from './pages/Favs';
+import Info from './pages/Info';
 function App() {
 
 
@@ -24,6 +25,7 @@ function App() {
                 <Routes>
                   <Route>
                     <Route path='/' element={<Main />} />
+                    <Route path='/info' element={<Info />} />
                     <Route path='/favs' element={<Favs />} />
                     <Route path='/contact' element={<Contact />} />
                   </Route>

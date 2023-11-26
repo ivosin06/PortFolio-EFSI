@@ -15,7 +15,8 @@ const Proyects = () => {
 
                         function svgChangue() {
                             if (pc.fav === false) {
-                                return (<>
+                                return (
+                                <>
                                     <svg
                                         xmlns="http://www.w3.org/2000/svg"
                                         width="24"

@@ -50,6 +50,7 @@ const Navbar = () => {
                 <div className="items">
                     <span className="ticket-row__right-column--primary-text"> <Link to="/" className="link">Home</Link></span>
                     <span className="ticket-row__right-column--primary-text"> <Link to="/favs" className="link">Favoritos</Link></span>
+                    <span className="ticket-row__right-column--primary-text"> <Link to="/info" className="link">Sobre mi</Link></span>
                     <span className="ticket-row__right-column--primary-text"> <button className="link" id="button__link" onClick={handleClickModalActive}>Contacto</button></span>
                 </div>
                 

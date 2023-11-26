@@ -19,8 +19,6 @@ const Contact = () => {
             .required("Un mensaje es requerido")
             .max(300, "La longitud de un mensaje no puede superar los 300 caracteres")
             .min(50, "Este campo debe tener como minimo 50 caracteres")
-
-
     });
 
     return (
@@ -62,8 +60,7 @@ const Contact = () => {
 
                             <Field
                                 className="input-text"
-                                type="number"
-
+                                type="tel"
                                 name="phone"
                                 autoCapitalize="true"
                                 maxLength="15"
