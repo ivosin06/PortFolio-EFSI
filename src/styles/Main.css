@@ -1,0 +1,84 @@
+*{
+    transition-timing-function: cubic-bezier(.29, 1.01, 1, -0.68);
+}
+.ticket-row__column--primary-text,
+.ticket-row__right-column--secondary-text,
+.ticket-row__right-column--primary-text,
+.ticket-row__left-column--primary-text,
+.ticket-row__left-column--secondary-text {
+    align-items: center;
+    color: rgba(0, 0, 0, .9);
+    display: flex;
+    flex-direction: row;
+    font-size: 16px;
+    font-weight: 400;
+    justify-content: flex-start;
+    line-height: 1.25;
+    margin: 0;
+    padding: 0;
+    width: fit-content;
+}
+.img__container{
+    width: 50%;
+}
+.profile_img{
+    width: 100%;
+    height: 100%;
+    border-radius: 20%;
+}
+.ticket-row {
+    display: flex;
+    justify-content: space-evenly;
+}
+.ticket-row.noflex {
+    display: contents;
+
+}
+.ticket-right-column {
+    width: 20rem;
+    height: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    text-align: left;
+    align-items: center;
+    gap:1rem;
+}
+.ticket-row__left-column {
+    display: flex;
+    width: 30rem;
+    height: 10rem;
+    justify-content: flex-start;
+    align-items: flex-start;
+    text-align: start;
+    flex-direction: column;
+}
+.richtext.textname{
+    font-size: 40px;
+    line-height: 2.5rem;
+    color: rgb(56, 56, 56);
+    font-family: "PoppinsExtraBold";
+    transition: ease-in-out 333ms;
+}
+.richtext.description{
+    font-size: 18px;
+    font-family: "PoppinsMedium";
+    transition: ease-in-out 333ms;
+}
+
+.columns-presentation{
+    display: flex;
+    grid-template-columns: calc(100% - 392px) auto;
+    height: auto;
+    justify-content: space-between;
+    flex-direction: row;
+    padding: 2rem;
+}
+.arrow-section{
+    display: flex;
+    justify-content: flex-start;
+    align-content: center;
+    padding-top: 5rem;
+    width: 100%;
+    padding-bottom: 5rem ;
+}
