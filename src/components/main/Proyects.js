@@ -6,12 +6,15 @@ const Proyects = () => {
     const proyectContext = useProyectContext();
     const ProyectFunctions = useProyectFunctions();
 
+    
+
+
     return (
         <>
 
             <article className="ticket-row proyects__container">
                 <div className="columns-proyects">
-                    {proyectContext?.map(pc => {
+                    {proyectContext.proyects.map(pc => {
 
                         function svgChangue() {
                             if (pc.fav === false) {
